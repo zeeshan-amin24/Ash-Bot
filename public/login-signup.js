@@ -83,7 +83,7 @@ if (signUpButton != null) {
         );
       }) 
       setTimeout(() => {
-        window.location.href = "http://localhost:5500"
+        window.location.href = "/index.html"
       }, 3000);
     })
       .catch((error) => {
@@ -119,7 +119,7 @@ if (loginButton != null) {
         );
         localStorage.setItem("loggedInUserId", user.uid)
         setTimeout(() => {
-          window.location.href = "http://localhost:5500"
+          window.location.href = "/index.html"
         }, 3000);
       })
       .catch((error) => {

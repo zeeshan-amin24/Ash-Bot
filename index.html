@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ash Bot</title>
+    <link
+      rel="website icon"
+      href="https://i.ibb.co/n3dCLzP/images-removebg-preview-1.png"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+
+  <body>
+    <footer>
+      <p>
+        By messaging Ash Bot, you agree to our Terms and have read our Privacy
+        Policy.
+      </p>
+    </footer>
+    <div class="container starter">
+      <div class="login-signup">
+        
+        <span id="name"> ASH BOT</span>
+        <img
+          class="img-bot"
+          src="https://i.ibb.co/n3dCLzP/images-removebg-preview-1.png
+        "
+          alt=""
+        />
+        <a id="login" href="login.html">
+          <button class="login">Login</button>
+        </a>
+        <a id="signup" href="signup.html">
+          <button class="sign-up">Sign Up</button>
+        </a>
+      </div>
+      <div class="message-div">
+        <div class="messages" id="messages">
+          <div class="bot-img-div"></div>
+          <div class="thinking-div hide">⚪</div>
+        </div>
+      </div>
+      <h1 class="heading">What Can I Help With?</h1>
+      <div class="input-div-container">
+        <div class="input-div">
+          <textarea id="userInput" placeholder="Ask Something..."></textarea>
+          <div class="btn-container">
+            <button disabled id="send-btn" onclick="sendRequest()">
+             <img src="
+             https://cdn-icons-png.flaticon.com/128/608/608336.png" alt="">
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js" type="module">
+    </script>
+  </body>
+</html>
